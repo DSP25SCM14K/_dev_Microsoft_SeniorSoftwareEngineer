@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dev Kumar - Microsoft Senior Software Engineer portfolio for cloud-scale distributed systems, AI infrastructure, Azure live-site ownership, reliability, security, and engineering leadership."
+    />
+    <title>Dev Kumar | Microsoft Senior Software Engineer</title>
+    <link rel="preload" href="./assets/cloud-ai-platform-hero.png" as="image" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="signal-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Dev Kumar home">
+        <span class="brand-mark">DK</span>
+        <span>Dev Kumar</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#platform">Platform</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img src="./assets/cloud-ai-platform-hero.png" alt="" />
+          <div class="scan-layer"></div>
+        </div>
+
+        <div class="hero-content reveal">
+          <p class="eyebrow">Senior Software Engineer - Cloud, AI Infrastructure, Live Site</p>
+          <h1>Production systems built for scale, clarity, and calm ownership.</h1>
+          <p class="hero-copy">
+            I design and operate distributed services across Azure, AWS, and GCP with strong reliability habits,
+            secure platform engineering, AI-first automation, and mentoring that turns complex systems into
+            dependable products.
+          </p>
+
+          <div class="dynamic-line" aria-live="polite">
+            <span class="line-label">Currently building</span>
+            <span id="dynamic-text"></span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="https://github.com/devthedevil" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button button-secondary" href="https://leetcode.com/u/dev_kumar_dklv/" target="_blank" rel="noreferrer">LeetCode</a>
+          </div>
+        </div>
+
+        <div class="hero-metrics reveal" aria-label="Selected engineering impact">
+          <article>
+            <span class="metric-value" data-count="99.99">0</span>
+            <span class="metric-suffix">%</span>
+            <span class="metric-label">uptime on large-scale services</span>
+          </article>
+          <article>
+            <span class="metric-value" data-count="500">0</span>
+            <span class="metric-suffix">K+</span>
+            <span class="metric-label">monthly requests served</span>
+          </article>
+          <article>
+            <span class="metric-value" data-count="45">0</span>
+            <span class="metric-suffix">%</span>
+            <span class="metric-label">MTTR reduction</span>
+          </article>
+          <article>
+            <span class="metric-value" data-count="12">0</span>
+            <span class="metric-suffix">+</span>
+            <span class="metric-label">engineers led and mentored</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section platform-section reveal" id="platform">
+        <div class="section-heading">
+          <p class="eyebrow">Engineering Operating System</p>
+          <h2>Strong software is designed through failure modes, shipped through automation, and improved through live feedback.</h2>
+        </div>
+
+        <div class="principle-grid">
+          <article class="principle-card">
+            <span class="card-index">01</span>
+            <h3>Architect for scale</h3>
+            <p>Sharded queues, partition-aware consumers, asynchronous workers, and cloud-native services keep throughput predictable as traffic grows.</p>
+          </article>
+          <article class="principle-card">
+            <span class="card-index">02</span>
+            <h3>Operate with evidence</h3>
+            <p>OpenTelemetry traces, structured logs, SLOs, alert review, and incident forensics turn production pressure into durable engineering learning.</p>
+          </article>
+          <article class="principle-card">
+            <span class="card-index">03</span>
+            <h3>Secure the platform</h3>
+            <p>Idempotency, least privilege, identity hardening, rate limiting, and safe retries reduce blast radius before systems are under stress.</p>
+          </article>
+          <article class="principle-card">
+            <span class="card-index">04</span>
+            <h3>Raise the team</h3>
+            <p>Design docs, code reviews, on-call coaching, roadmap planning, and crisp ownership make complex systems easier for teams to evolve.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section diagram-section reveal" aria-labelledby="diagram-title">
+        <div class="section-heading">
+          <p class="eyebrow">System Diagram</p>
+          <h2 id="diagram-title">A cloud service path from user traffic to AI orchestration, event streams, observability, and secure release.</h2>
+        </div>
+
+        <div class="diagram-shell">
+          <svg class="architecture-diagram" viewBox="0 0 1160 620" role="img" aria-labelledby="svg-title svg-desc">
+            <title id="svg-title">Cloud-scale AI service architecture</title>
+            <desc id="svg-desc">Traffic flows through an API edge, service mesh, agent orchestrator, queues, workers, data stores, telemetry, incident review, and CI/CD release controls.</desc>
+            <defs>
+              <linearGradient id="flowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#38bdf8" />
+                <stop offset="33%" stop-color="#2dd4bf" />
+                <stop offset="66%" stop-color="#8b5cf6" />
+                <stop offset="100%" stop-color="#f59e0b" />
+              </linearGradient>
+              <filter id="softGlow">
+                <feGaussianBlur stdDeviation="4" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+
+            <g class="diagram-grid">
+              <path d="M56 90H1104M56 210H1104M56 330H1104M56 450H1104M56 570H1104" />
+              <path d="M154 48V574M328 48V574M502 48V574M676 48V574M850 48V574M1024 48V574" />
+            </g>
+
+            <g class="diagram-node node-input">
+              <rect x="56" y="222" width="192" height="150" rx="12" />
+              <text x="152" y="268">Traffic Edge</text>
+              <text x="152" y="306">auth</text>
+              <text x="152" y="338">rate limits</text>
+            </g>
+
+            <g class="diagram-node">
+              <rect x="308" y="76" width="220" height="132" rx="12" />
+              <text x="418" y="120">Service Mesh</text>
+              <text x="418" y="156">gRPC / REST</text>
+              <text x="418" y="186">health probes</text>
+            </g>
+
+            <g class="diagram-node">
+              <rect x="308" y="414" width="220" height="132" rx="12" />
+              <text x="418" y="458">Release Control</text>
+              <text x="418" y="494">CI/CD</text>
+              <text x="418" y="524">Terraform</text>
+            </g>
+
+            <g class="diagram-node node-core">
+              <rect x="596" y="182" width="270" height="196" rx="14" />
+              <text x="731" y="230">AI Orchestrator</text>
+              <text x="731" y="270">tool calls</text>
+              <text x="731" y="310">idempotency</text>
+              <text x="731" y="350">queue shards</text>
+            </g>
+
+            <g class="diagram-node">
+              <rect x="918" y="54" width="190" height="126" rx="12" />
+              <text x="1013" y="98">Event Stream</text>
+              <text x="1013" y="134">Kafka</text>
+              <text x="1013" y="164">partitioning</text>
+            </g>
+
+            <g class="diagram-node">
+              <rect x="918" y="238" width="190" height="126" rx="12" />
+              <text x="1013" y="282">Data Layer</text>
+              <text x="1013" y="318">Cosmos / Redis</text>
+              <text x="1013" y="348">durability</text>
+            </g>
+
+            <g class="diagram-node">
+              <rect x="918" y="422" width="190" height="126" rx="12" />
+              <text x="1013" y="466">Live Site</text>
+              <text x="1013" y="502">traces / SLOs</text>
+              <text x="1013" y="532">forensics</text>
+            </g>
+
+            <g class="flow-lines">
+              <path d="M248 296 C278 296 274 142 308 142" />
+              <path d="M248 306 C280 306 276 480 308 480" />
+              <path d="M528 142 C590 142 568 258 596 258" />
+              <path d="M528 480 C590 480 568 334 596 334" />
+              <path d="M866 250 C900 250 884 118 918 118" />
+              <path d="M866 294 C900 294 884 302 918 302" />
+              <path d="M866 336 C900 336 884 486 918 486" />
+              <path d="M1013 422 C1013 394 1013 390 1013 364" />
+              <path d="M1013 238 C1013 210 1013 206 1013 180" />
+            </g>
+
+            <g class="diagram-pulses">
+              <circle cx="250" cy="296" r="7" />
+              <circle cx="528" cy="142" r="7" />
+              <circle cx="596" cy="334" r="7" />
+              <circle cx="866" cy="294" r="7" />
+              <circle cx="1013" cy="486" r="7" />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <section class="section skills-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Technical Range</p>
+          <h2>Hands-on across cloud services, distributed systems, AI orchestration, live-site reliability, and security-adjacent platforms.</h2>
+        </div>
+
+        <div class="skill-cloud" aria-label="Key skills">
+          <span>Azure</span>
+          <span>AKS</span>
+          <span>Container Apps</span>
+          <span>Functions</span>
+          <span>Cosmos DB</span>
+          <span>Kubernetes</span>
+          <span>Kafka</span>
+          <span>RabbitMQ</span>
+          <span>Python</span>
+          <span>Java</span>
+          <span>C++</span>
+          <span>Go</span>
+          <span>TypeScript</span>
+          <span>gRPC</span>
+          <span>REST</span>
+          <span>JSON-RPC</span>
+          <span>OpenTelemetry</span>
+          <span>Prometheus</span>
+          <span>Grafana</span>
+          <span>Terraform</span>
+          <span>Azure DevOps</span>
+          <span>GitHub Actions</span>
+          <span>LangChain</span>
+          <span>MCP Servers</span>
+          <span>RAG</span>
+          <span>Security Hardening</span>
+        </div>
+      </section>
+
+      <section class="section experience-section reveal" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Work across production AI services, backend cloud infrastructure, distributed systems, and engineering leadership.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>Mar 2025 - Present</span>
+              <strong>Sprouts AI</strong>
+            </div>
+            <div class="timeline-card">
+              <h3>Senior Software Engineer (AI-First Infrastructure)</h3>
+              <p>Chicago, IL</p>
+              <ul>
+                <li>Architected high-throughput agentic AI services on Azure (Container Apps, Functions, Cosmos DB) handling 1K+ daily invocations at 99.9% uptime and sub-800ms p95 latency, using an orchestrator-worker topology with async tool-calling, idempotency keys, and sharded queue processing.</li>
+                <li>Drove infrastructure security improvements for mission-critical AI workloads - eliminated a duplicate-tool-call vulnerability from session retries by introducing JSON-RPC idempotency keys, separating state-changing tools from read-only resources, and adding least-privilege scopes to MCP server endpoints.</li>
+                <li>Built automated self-managing deployment pipelines using GitHub Actions, Terraform, and Azure DevOps with environment-specific config injection (App Settings, feature flags, connection strings) across dev/staging/prod, cutting manual engineer intervention on deploys by ~70% and enabling safe daily releases.</li>
+                <li>Led in-depth Live Site triage and forensics across the Azure cloud stack - instrumented OpenTelemetry distributed tracing and structured logging, defined latency/error-budget KPIs, and mentored 4 mid-level engineers on on-call best practices, reducing mean-time-to-recovery 45%.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>Aug 2023 - Mar 2025</span>
+              <strong>Resilience Inc</strong>
+            </div>
+            <div class="timeline-card">
+              <h3>Software Engineer (Backend / Cloud Infrastructure)</h3>
+              <p>Chicago, IL</p>
+              <ul>
+                <li>Engineered Kafka-based event-driven backends in Python and Node.js on Azure Container Apps and Functions, scaling to 500K+ monthly requests with sub-second p99 latency by introducing async batching, partition-aware consumers, and Redis-backed caching for high-throughput data access.</li>
+                <li>Optimized service deployment and maintenance for high-scale workloads - built CI/CD pipelines with automated rollback, health-probe-driven canary releases, and Terraform-managed infrastructure-as-code, achieving 99.95% deployment success rate across 200+ releases.</li>
+                <li>Owned on-call rotation for backend services - conducted forensics on production incidents using Azure Monitor and distributed traces, hardened authentication and rate-limiting layers, and shipped 12 reliability improvements that cut Sev-2+ incidents 60% quarter-over-quarter.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>Apr 2018 - Aug 2023</span>
+              <strong>Tata Steel</strong>
+            </div>
+            <div class="timeline-card">
+              <h3>Software Engineer / Tech Lead</h3>
+              <ul>
+                <li>Architected microservices in Java, Python, and Go on Kubernetes for an internet-scale internal platform serving 40K+ users, applying large-scale system design, sharding, and replication patterns to achieve 99.99% uptime and 40% faster API response times.</li>
+                <li>Led a 12-person engineering team across full SDLC - defined requirements, KPIs, priorities, and quarterly engineering deliverables; mentored a mix of senior and mid-level engineers; embedded code-review and Live Site review processes that cut production incidents 50%.</li>
+                <li>Drove infrastructure security and durability improvements for mission-critical workloads - partnered with the network security team on Palo Alto firewall, OSPF/BGP, and VPN hardening, eliminating two classes of cross-service auth bypass and improving mean-time-to-detect 3x.</li>
+                <li>Engineered C-based Linux kernel modules and PAM (Pluggable Authentication Module) integrations for enterprise identity hardening - built character device drivers for hardware-token authentication and syscall-level credential validation hooks, reducing privilege-escalation incidents 60% across production hosts.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Source and demos across streaming systems, agentic AI, low-level systems, cloud apps, research, and product engineering.</h2>
+        </div>
+
+        <div class="project-toolbar" role="list" aria-label="Project filters">
+          <button class="filter-button is-active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="cloud">Cloud</button>
+          <button class="filter-button" type="button" data-filter="ai">AI</button>
+          <button class="filter-button" type="button" data-filter="systems">Systems</button>
+          <button class="filter-button" type="button" data-filter="web">Web</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-tags="cloud data systems">
+            <div class="project-topline"><span>Streaming Data</span><strong>Kafka</strong></div>
+            <h3>Real-time Stock Market Analysis Pipeline</h3>
+            <p>End-to-end Python Kafka pipeline for high-throughput ingest, partition scaling, event-driven aggregation, and low-latency analytics.</p>
+            <div class="project-links">
+              <a href="https://github.com/devthedevil/Realtime-Stock-Market-Analysis" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="ai cloud web">
+            <div class="project-topline"><span>Agentic AI</span><strong>LangChain</strong></div>
+            <h3>LangChain Chat with Search</h3>
+            <p>Agentic LLM service with tool orchestration, planning loops, search integration, and automation patterns for AI-first workflows.</p>
+            <div class="project-links">
+              <a href="https://github.com/devthedevil/LangChain-Chat-with-Search" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="systems cloud">
+            <div class="project-topline"><span>Market Data</span><strong>C++</strong></div>
+            <h3>CME MDP 3.0 Multicast Feed Handler</h3>
+            <p>Low-latency feed handling project showing protocol parsing, multicast data flow, performance-minded C++ engineering, and market-data reliability.</p>
+            <div class="project-links">
+              <a href="https://github.com/devthedevil/CME-Multicast-Market-Data-Feed-Handler-C-" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="systems">
+            <div class="project-topline"><span>Operating Systems</span><strong>C</strong></div>
+            <h3>Experimental Operating System</h3>
+            <p>Systems project covering OS internals, process thinking, memory discipline, and low-level foundations useful for reliable platform work.</p>
+            <div class="project-links">
+              <a href="https://github.com/devthedevil/EXPOS" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="systems security">
+            <div class="project-topline"><span>Kernel Module</span><strong>Linux</strong></div>
+            <h3>Character Device Driver</h3>
+            <p>C-based Linux driver work demonstrating hardware-token style interfaces, syscall-level thinking, and security-adjacent systems engineering.</p>
+            <div class="project-links">
+              <a href="https://github.com/devthedevil/Character-Device-Driver" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="systems">
+            <div class="project-topline"><span>Processor Design</span><strong>RISC</strong></div>
+            <h3>16-Bit RISC Processor</h3>
+            <p>Hardware lab project showing architecture fundamentals, instruction-level reasoning, and the patience to understand systems below the API surface.</p>
+            <div class="project-links">
+              <a href="https://github.com/devthedevil/Hardware-lab" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="web cloud">
+            <div class="project-topline"><span>Product App</span><strong>Live</strong></div>
+            <h3>TradeSentinel</h3>
+            <p>Production web app with TypeScript, deployed UX, backend integration patterns, and product-minded iteration from source to demo.</p>
+            <div class="project-links">
+              <a href="https://tradesentinel.vercel.app/" target="_blank" rel="noreferrer">Demo</a>
+              <a href="https://github.com/devthedevil/tradesentinel" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="web ai cloud">
+            <div class="project-topline"><span>Knowledge Assistant</span><strong>Live</strong></div>
+            <h3>AskMyStore</h3>
+            <p>Conversational commerce experience with search, dynamic responses, catalog flow, and deployed full-stack product behavior.</p>
+            <div class="project-links">
+              <a href="https://askmystore.vercel.app/" target="_blank" rel="noreferrer">Demo</a>
+              <a href="https://github.com/devthedevil/AskMyStore" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="web">
+            <div class="project-topline"><span>Full Stack</span><strong>MERN</strong></div>
+            <h3>STRANGERS</h3>
+            <p>Responsive full-stack social platform with user flows, forms, JavaScript interactions, and practical web application delivery.</p>
+            <div class="project-links">
+              <a href="https://github.com/devthedevil/Strangers" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="data ai">
+            <div class="project-topline"><span>IEEE Research</span><strong>Models</strong></div>
+            <h3>Comparative Study of Movie Recommendation Systems</h3>
+            <p>Published research on collaborative, content-based, and hybrid recommendation models with improved error functions.</p>
+            <div class="project-links">
+              <a href="https://ieeexplore.ieee.org/document/10094480" target="_blank" rel="noreferrer">Paper</a>
+              <a href="https://github.com/devthedevil/Comparative-Study-of-Movie-Recommendation-System/blob/main/Netflix_Movie.ipynb" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="web">
+            <div class="project-topline"><span>iOS App</span><strong>Swift</strong></div>
+            <h3>Pitch Perfect</h3>
+            <p>Mobile app project showing audio interaction, product UI thinking, and clean implementation across a focused user workflow.</p>
+            <div class="project-links">
+              <a href="https://github.com/devthedevil/Pitch_Perfect" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section credentials-section reveal">
+        <div class="credential-panel">
+          <article>
+            <span class="eyebrow">Education</span>
+            <h2>Illinois Institute of Technology</h2>
+            <p>M.S., Computer Science</p>
+            <h2>National Institute of Technology Calicut</h2>
+            <p>B.Tech, Computer Science</p>
+          </article>
+          <article>
+            <span class="eyebrow">Publication</span>
+            <h2>IEEE Recommendation Systems Paper</h2>
+            <p>Research in collaborative, content-based, and hybrid recommendation models.</p>
+            <a class="inline-link" href="https://ieeexplore.ieee.org/document/10094480" target="_blank" rel="noreferrer">Read paper</a>
+          </article>
+          <article>
+            <span class="eyebrow">Credential</span>
+            <h2>Professional Certificate</h2>
+            <p>Additional certification evidence for applied engineering growth and delivery.</p>
+            <a class="inline-link" href="https://drive.google.com/file/d/1rayr6Cht6quyLUJOXWOAcBi_rxQp2Ol0/view" target="_blank" rel="noreferrer">View certificate</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section reveal" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Ready to build reliable services, mentor teams, and keep production systems healthy.</h2>
+          <p>
+            I bring distributed systems depth, AI infrastructure curiosity, live-site discipline, and a steady ownership style to complex engineering problems.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:devkumar.dklv@gmail.com">Email</a>
+          <a class="button button-secondary" href="tel:+13125328223">Call</a>
+          <a class="button button-secondary" href="https://github.com/devthedevil" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button button-secondary" href="https://leetcode.com/u/dev_kumar_dklv/" target="_blank" rel="noreferrer">LeetCode</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Designed and built for Dev Kumar - cloud services, AI infrastructure, live-site ownership, reliability, and secure platform engineering.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
