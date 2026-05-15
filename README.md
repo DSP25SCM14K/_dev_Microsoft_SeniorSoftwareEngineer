@@ -1,4 +1,4 @@
-# Dev Kumar - Microsoft Senior Software Engineer Portfolio
+# Dev Kumar - Software Engineering Portfolio
 
 Static dark-theme portfolio website built from `_dev_Microsoft_SeniorSoftwareEngineer.docx`.
 
